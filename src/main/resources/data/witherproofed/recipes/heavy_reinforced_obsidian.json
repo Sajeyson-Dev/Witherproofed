@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "OOO",
+    "#O#"
+  ],
+  "key": {
+    "#": {
+      "item": "witherproofed:reinforced_alloy"
+    },
+    "O": {
+      "tag": "forge:obsidian"
+    }
+  },
+  "result": {
+    "item": "witherproofed:heavy_reinforced_obsidian",
+    "count": 5
+  }
+}

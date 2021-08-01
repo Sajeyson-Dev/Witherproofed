@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "witherproofed:block/heavy_reinforced_glass"
+  }
+}

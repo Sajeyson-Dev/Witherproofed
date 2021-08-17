@@ -1,9 +1,9 @@
 modLoader="javafml"
 loaderVersion="[37,)"
-license="CCO-1.0"
+license="LGPL-2.1"
 [[mods]]
 modId="witherproofed"
-version="2.5.1"
+version="2.5.2"
 displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"

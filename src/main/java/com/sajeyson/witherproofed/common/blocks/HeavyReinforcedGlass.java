@@ -9,18 +9,17 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
-import net.minecraftforge.common.ToolType;
+import net.minecraft.world.level.material.MaterialColor;
 
 import javax.annotation.Nullable;
 import java.util.List;
 
 public class HeavyReinforcedGlass extends GlassBlock {
     public HeavyReinforcedGlass() {
-        super(Properties.copy(new Block(Properties.of(Material.GLASS)
+        super(Properties.copy(new Block(Properties.of(Material.GLASS, MaterialColor.COLOR_BLACK)
                 .noOcclusion()
-                .harvestLevel(3)
-                .strength(32f)
-                .harvestTool(ToolType.PICKAXE)
+                .strength(50.0f, 5000.0f)
+                .explosionResistance(100000.0f)
                 .requiresCorrectToolForDrops()
                 .sound(SoundType.GLASS))));
     }

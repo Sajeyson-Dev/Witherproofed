@@ -5,6 +5,15 @@
 >**Fixes:**
 - Not compatible with Forge since 37.0.31.
 
+## **Witherproofed 2.4.2-release MC-1.16.5.**
+>**Changes**
+- Added connected texture to glass, ConnectedTexturesMod required.
+- Added tooltip "Has connected texture". Appears only if ConnectedTexturesMod installed.
+- Some code refactoring.
+- Updated JEI to 7.7.1.118 for dev env.
+>**Fixes:**
+- Glass create shadow underneath.
+
 ## **Witherproofed 2.5.1-release MC-1.17.1.**
 >**Changes**
 - Updated Forge to 37.0.13 for dev env.

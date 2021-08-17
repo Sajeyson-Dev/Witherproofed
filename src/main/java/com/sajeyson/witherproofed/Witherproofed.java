@@ -1,6 +1,6 @@
 package com.sajeyson.witherproofed;
 
-import com.sajeyson.witherproofed.client.GlassBlocksRender;
+import com.sajeyson.witherproofed.client.ModRenderTypes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -18,7 +18,7 @@ public class Witherproofed {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(GlassBlocksRender::GlassRender);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ModRenderTypes::RenderTypes);
         Witherproofed.LOGGER.info("So Heavy!");
     }
 }

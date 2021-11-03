@@ -22,7 +22,7 @@ public class ReinforcedAlloy extends Item {
 
     @OnlyIn(Dist.CLIENT)
     @Override
-    public void appendHoverText(ItemStack itemStack, @Nullable World world, List<ITextComponent> tooltip, ITooltipFlag iTooltipFlag) {
+    public void appendHoverText(ItemStack item, @Nullable World world, List<ITextComponent> tooltip, ITooltipFlag flag) {
         tooltip.add(new StringTextComponent("So tough...").withStyle(TextFormatting.AQUA));
     }
 }

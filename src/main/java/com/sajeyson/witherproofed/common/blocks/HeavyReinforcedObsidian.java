@@ -18,17 +18,17 @@ import java.util.List;
 public class HeavyReinforcedObsidian extends Block {
 
     public HeavyReinforcedObsidian() {
-        super(Properties.copy(new Block(Properties.of(Material.HEAVY_METAL)
+        super(Properties.of(Material.HEAVY_METAL)
                 .harvestLevel(3)
                 .strength(32f)
                 .harvestTool(ToolType.PICKAXE)
                 .requiresCorrectToolForDrops()
-                .sound(SoundType.NETHERITE_BLOCK))));
+                .sound(SoundType.NETHERITE_BLOCK));
     }
 
     @OnlyIn(Dist.CLIENT)
     @Override
-    public void appendHoverText(ItemStack itemStack, @Nullable IBlockReader iBlockReader, List<ITextComponent> tooltip, ITooltipFlag iTooltipFlag) {
+    public void appendHoverText(ItemStack stack, @Nullable IBlockReader reader, List<ITextComponent> tooltip, ITooltipFlag flag) {
         tooltip.add(ModTooltips.DEFAULT_BLOCK_TOOLTIP);
     }
 }

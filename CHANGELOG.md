@@ -1,3 +1,12 @@
+## **Witherproofed 2.4.3-release.**
+>**Added:**
+- Ghostly glass variants.
+>**Changes**
+- Updated Forge to 36.2.8 for dev env.
+- Updated JEI to 7.7.1.118 for dev env.
+>**Fixes:**
+- Crash on server startup.
+
 ## **Witherproofed 2.4.2-release.**
 >**Changes**
 - Added connected texture to glass, ConnectedTexturesMod required.

@@ -2,6 +2,9 @@
   "block.witherproofed.heavy_reinforced_obsidian": "Heavy Reinforced Obsidian",
   "block.witherproofed.heavy_reinforced_glass": "Heavy Reinforced Glass",
   "block.witherproofed.heavy_reinforced_translucent_glass": "Heavy Reinforced Translucent Glass",
+  "block.witherproofed.heavy_reinforced_ghostly_glass": "Heavy Reinforced Ghostly Glass",
+  "block.witherproofed.heavy_reinforced_ghostly_translucent_glass": "Heavy Reinforced Ghostly Translucent Glass",
   "item.witherproofed.reinforced_alloy": "Reinforced Alloy",
+  "item.witherproofed.ghostly_essence": "Ghostly Essence",
   "itemGroup.witherproofedCreativeTab": "Witherproofed"
 }

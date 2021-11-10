@@ -19,7 +19,7 @@ public class ReinforcedAlloy extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack itemStack, @Nullable Level p_41422_, List<Component> tooltip, TooltipFlag tooltipFlag) {
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
         tooltip.add(new TextComponent("So tough...").withStyle(ChatFormatting.AQUA));
     }
 }

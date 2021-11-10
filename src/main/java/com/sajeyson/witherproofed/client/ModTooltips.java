@@ -9,4 +9,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public class ModTooltips {
     public static final TextComponent DEFAULT_BLOCK_TOOLTIP = (TextComponent)
             new TextComponent("Wither cannot destroy this block").withStyle(ChatFormatting.AQUA);
+
+    public static final TextComponent HAS_CTM_TOOLTIP = (TextComponent)
+            new TextComponent("Has connected texture").withStyle(ChatFormatting.GRAY);
 }

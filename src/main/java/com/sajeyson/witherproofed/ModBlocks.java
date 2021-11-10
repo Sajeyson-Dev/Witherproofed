@@ -1,6 +1,7 @@
 package com.sajeyson.witherproofed;
 
 import com.sajeyson.witherproofed.client.ModCreativeTab;
+import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedGhostlyGlass;
 import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedGlass;
 import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedObsidian;
 import net.minecraft.world.item.BlockItem;
@@ -31,4 +32,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> HEAVY_REINFORCED_OBSIDIAN = blockItemRegister("heavy_reinforced_obsidian", HeavyReinforcedObsidian::new);
     public static final RegistryObject<Block> HEAVY_REINFORCED_GLASS = blockItemRegister("heavy_reinforced_glass", HeavyReinforcedGlass::new);
     public static final RegistryObject<Block> HEAVY_REINFORCED_TRANSLUCENT_GLASS = blockItemRegister("heavy_reinforced_translucent_glass", HeavyReinforcedGlass::new);
+    public static final RegistryObject<Block> HEAVY_REINFORCED_GHOSTLY_GLASS = blockItemRegister("heavy_reinforced_ghostly_glass", HeavyReinforcedGhostlyGlass::new);
+    public static final RegistryObject<Block> HEAVY_REINFORCED_GHOSTLY_TRANSLUCENT_GLASS = blockItemRegister("heavy_reinforced_ghostly_translucent_glass", HeavyReinforcedGhostlyGlass::new);
 }

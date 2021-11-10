@@ -1,20 +1,25 @@
 modLoader="javafml"
 loaderVersion="[37,)"
 license="LGPL-2.1"
+
 [[mods]]
 modId="witherproofed"
-version="2.5.2"
+version="2.5.3"
 displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"
 credits="Mojang Studios, Forge Team"
 description='Adds Heavy Reinforced Blocks to make wither farms'
+issueTrackerURL="https://github.com/Sajeyson/Witherproofed"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
+
 [[dependencies.witherproofed]]
     modId="forge"
     mandatory=true
     versionRange="[37,)"
     ordering="NONE"
     side="BOTH"
+
 [[dependencies.witherproofed]]
     modId="minecraft"
     mandatory=true

@@ -1,11 +1,11 @@
 modLoader="javafml"
-loaderVersion="[37,)"
+loaderVersion="[38,)"
 license="LGPL-2.1"
-issueTrackerURL="https://github.com/Sajeyson/Witherproofed/tree/1.17.1"
+issueTrackerURL="https://github.com/Sajeyson/Witherproofed/tree/1.18"
 
 [[mods]]
 modId="witherproofed"
-version="2.5.3"
+version="2.6"
 displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"
@@ -16,13 +16,13 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
 [[dependencies.witherproofed]]
     modId="forge"
     mandatory=true
-    versionRange="[37,)"
+    versionRange="[38,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.witherproofed]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.17.1, )"
+    versionRange="[1.18, 1.19)"
     ordering="NONE"
     side="BOTH"

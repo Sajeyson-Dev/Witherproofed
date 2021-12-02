@@ -3,9 +3,9 @@ package com.sajeyson.witherproofed;
 import com.sajeyson.witherproofed.common.items.GhostlyEssence;
 import com.sajeyson.witherproofed.common.items.ReinforcedAlloy;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 

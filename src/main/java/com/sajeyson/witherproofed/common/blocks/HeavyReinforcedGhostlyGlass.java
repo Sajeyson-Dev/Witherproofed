@@ -50,8 +50,7 @@ public class HeavyReinforcedGhostlyGlass extends GlassBlock {
     public VoxelShape getCollisionShape(BlockState state, BlockGetter getter, BlockPos pos, CollisionContext context) {
         if (context instanceof EntityCollisionContext) {
             EntityCollisionContext collisionContext = (EntityCollisionContext) context;
-            return (collisionContext.getEntity().orElse(null)
-                    instanceof Player) == isAir(state)? state.getShape(getter, pos) : Shapes.empty();
+            return (collisionContext.getEntity() instanceof Player) == isAir(state)? state.getShape(getter, pos) : Shapes.empty();
         }
         return null;
     }

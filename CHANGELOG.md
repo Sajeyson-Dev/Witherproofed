@@ -1,3 +1,12 @@
+## **Witherproofed 2.5.4-release MC-1.17.1.**
+>**Changes:**
+- Updated Forge to 37.1.07 for dev env.
+- Updated JEI to 8.2.0.37 for dev env.
+- Added Catalogue for dev env.
+- Some code management and refactoring.
+>**Fixed:**
+- Creative tab mod icon.
+
 ## **Witherproofed 2.5.3-release MC-1.17.1.**
 >**Added:**
 - Ghostly glass variants.

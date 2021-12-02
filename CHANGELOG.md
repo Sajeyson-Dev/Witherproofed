@@ -1,5 +1,7 @@
 ## **Witherproofed 2.4.4-release.**
 >**Changes**
+- Updated Forge to 36.2.19 for dev env.
+- Updated JEI to 7.7.1.137 for dev env.
 - Some code improvemts.
 
 ## **Witherproofed 2.4.3-release.**

@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '2.4.3 MC-1.16.5'
+version = "${mod_version}_MC-1.16.5"
 group = 'com.sajeyson.witherproofed' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Witherproofed'
 
@@ -122,6 +122,12 @@ repositories {
     maven {
         url = "https://maven.tterrag.com/"
     }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
 }
 
 dependencies {
@@ -132,9 +138,9 @@ dependencies {
     compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
     implementation fg.deobf("team.chisel.ctm:CTM:MC1.16.1-1.1.2.6")
+    implementation fg.deobf("curse.maven:catalogue-459701:3529457")
 
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
 }

@@ -1,3 +1,7 @@
+## **Witherproofed 2.4.4-release.**
+>**Changes**
+- Some code improvemts.
+
 ## **Witherproofed 2.4.3-release.**
 >**Added:**
 - Ghostly glass variants.

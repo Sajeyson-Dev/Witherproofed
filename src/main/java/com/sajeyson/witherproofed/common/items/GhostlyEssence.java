@@ -1,6 +1,6 @@
 package com.sajeyson.witherproofed.common.items;
 
-import com.sajeyson.witherproofed.client.ModCreativeTab;
+import com.sajeyson.witherproofed.ModCreativeTab;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class GhostlyEssence extends Item {
     public GhostlyEssence() {
-        super(new Item.Properties().tab(ModCreativeTab.witherproofedCreativeTab));
+        super(new Item.Properties().tab(ModCreativeTab.MOD_CREATIVETAB));
     }
 
     @OnlyIn(Dist.CLIENT)

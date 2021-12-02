@@ -1,6 +1,6 @@
 package com.sajeyson.witherproofed.common.items;
 
-import com.sajeyson.witherproofed.client.ModCreativeTab;
+import com.sajeyson.witherproofed.ModCreativeTab;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TextComponent;
@@ -15,7 +15,7 @@ import java.util.List;
 public class ReinforcedAlloy extends Item {
 
     public ReinforcedAlloy() {
-        super(new Item.Properties().tab(ModCreativeTab.witherproofedCreativeTab).fireResistant());
+        super(new Item.Properties().tab(ModCreativeTab.MOD_CREATIVETAB).fireResistant());
     }
 
     @Override

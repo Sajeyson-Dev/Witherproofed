@@ -1,6 +1,6 @@
 package com.sajeyson.witherproofed.common.items;
 
-import com.sajeyson.witherproofed.client.ModItemGroup;
+import com.sajeyson.witherproofed.ModItemGroup;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -17,7 +17,7 @@ import java.util.List;
 public class ReinforcedAlloy extends Item {
 
     public ReinforcedAlloy() {
-        super(new Item.Properties().tab(ModItemGroup.witherproofedItemGroup).fireResistant());
+        super(new Item.Properties().tab(ModItemGroup.MOD_ITEMGROUP).fireResistant());
     }
 
     @OnlyIn(Dist.CLIENT)

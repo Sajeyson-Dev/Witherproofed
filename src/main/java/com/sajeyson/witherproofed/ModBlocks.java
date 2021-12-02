@@ -1,6 +1,5 @@
 package com.sajeyson.witherproofed;
 
-import com.sajeyson.witherproofed.client.ModItemGroup;
 import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedGhostlyGlass;
 import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedGlass;
 import com.sajeyson.witherproofed.common.blocks.HeavyReinforcedObsidian;
@@ -25,7 +24,7 @@ public class ModBlocks {
         RegistryObject<Block> blockRegistryObject = blockItemRegistryObject(block, blockSupplier);
         ModItems.ITEMS.register(block, ()->
                 new BlockItem(blockRegistryObject.get(),
-                        new Item.Properties().tab(ModItemGroup.witherproofedItemGroup).fireResistant()));
+                        new Item.Properties().tab(ModItemGroup.MOD_ITEMGROUP).fireResistant()));
         return blockRegistryObject;
     }
 

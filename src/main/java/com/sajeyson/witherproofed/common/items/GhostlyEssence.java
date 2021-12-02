@@ -1,6 +1,6 @@
 package com.sajeyson.witherproofed.common.items;
 
-import com.sajeyson.witherproofed.client.ModItemGroup;
+import com.sajeyson.witherproofed.ModItemGroup;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -16,7 +16,7 @@ import java.util.List;
 
 public class GhostlyEssence extends Item {
     public GhostlyEssence() {
-        super(new Item.Properties().tab(ModItemGroup.witherproofedItemGroup));
+        super(new Item.Properties().tab(ModItemGroup.MOD_ITEMGROUP));
     }
 
     @OnlyIn(Dist.CLIENT)

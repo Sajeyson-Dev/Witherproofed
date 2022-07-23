@@ -1,6 +1,13 @@
 package com.sajeyson.witherproofed.common.blocks;
 
+import java.util.List;
+
+import javax.annotation.Nullable;
+
+import com.sajeyson.witherproofed.client.ModFormatting;
 import com.sajeyson.witherproofed.client.ModTooltips;
+
+import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;
@@ -14,15 +21,11 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.fml.ModList;
 
-import javax.annotation.Nullable;
-import java.util.List;
-
 public class HeavyReinforcedGlass extends GlassBlock {
     public HeavyReinforcedGlass() {
         super(Properties.of(Material.GLASS, MaterialColor.COLOR_BLACK)
                 .noOcclusion()
-                .strength(50.0f, 5000.0f)
-                .explosionResistance(100000.0f)
+                .strength(50.0f, 100000.0f)
                 .requiresCorrectToolForDrops()
                 .sound(SoundType.GLASS)
                 .isViewBlocking(HeavyReinforcedGlass::never)
@@ -40,9 +43,7 @@ public class HeavyReinforcedGlass extends GlassBlock {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(ModTooltips.DEFAULT_BLOCK_TOOLTIP);
-        if (ModList.get().isLoaded("ctm")) {
-            tooltip.add(ModTooltips.HAS_CTM_TOOLTIP);
-        }
+        ModTooltips.buildTooltip(tooltip, "wither_immune", ModFormatting.LIGHT_PURPLE);
+        if (ModList.get().isLoaded("ctm")) ModTooltips.buildTooltip(tooltip, "connected_texture", ChatFormatting.DARK_GRAY);
     }
 }

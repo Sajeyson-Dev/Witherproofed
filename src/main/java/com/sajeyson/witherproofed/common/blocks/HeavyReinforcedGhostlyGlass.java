@@ -1,10 +1,15 @@
 package com.sajeyson.witherproofed.common.blocks;
 
+import java.util.List;
+
+import javax.annotation.Nullable;
+
+import com.sajeyson.witherproofed.client.ModFormatting;
 import com.sajeyson.witherproofed.client.ModTooltips;
+
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -18,19 +23,13 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.EntityCollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.ModList;
-
-import javax.annotation.Nullable;
-import java.util.List;
 
 public class HeavyReinforcedGhostlyGlass extends GlassBlock {
     public HeavyReinforcedGhostlyGlass() {
         super(Properties.of(Material.GLASS)
                 .noOcclusion()
-                .strength(50.0f, 5000.0f)
-                .explosionResistance(100000.0f)
+                .strength(50.0f, 100000.0f)
                 .requiresCorrectToolForDrops()
                 .sound(SoundType.GLASS)
                 .isViewBlocking(HeavyReinforcedGhostlyGlass::never)
@@ -55,13 +54,10 @@ public class HeavyReinforcedGhostlyGlass extends GlassBlock {
         return null;
     }
 
-    @OnlyIn(Dist.CLIENT)
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(ModTooltips.DEFAULT_BLOCK_TOOLTIP);
-        tooltip.add(new TextComponent("Only players can walk trough...").withStyle(ChatFormatting.AQUA));
-        if(ModList.get().isLoaded("ctm")) {
-            tooltip.add(ModTooltips.HAS_CTM_TOOLTIP);
-        }
+        ModTooltips.buildTooltip(tooltip, "wither_immune", ModFormatting.LIGHT_PURPLE);
+        ModTooltips.buildTooltip(tooltip, "player_pass", ModFormatting.ACTUAL_GREEN);
+        if (ModList.get().isLoaded("ctm")) ModTooltips.buildTooltip(tooltip, "connected_texture", ChatFormatting.DARK_GRAY);
     }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "witherproofed:item/soul_scorched_metal"
+  }
+}

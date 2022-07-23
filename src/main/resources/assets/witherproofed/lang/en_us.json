@@ -1,10 +1,32 @@
 {
-  "block.witherproofed.heavy_reinforced_obsidian": "Heavy Reinforced Obsidian",
-  "block.witherproofed.heavy_reinforced_glass": "Heavy Reinforced Glass",
-  "block.witherproofed.heavy_reinforced_translucent_glass": "Heavy Reinforced Translucent Glass",
   "block.witherproofed.heavy_reinforced_ghostly_glass": "Heavy Reinforced Ghostly Glass",
-  "block.witherproofed.heavy_reinforced_ghostly_translucent_glass": "Heavy Reinforced Ghostly Translucent Glass",
-  "item.witherproofed.reinforced_alloy": "Reinforced Alloy",
+  "block.witherproofed.heavy_reinforced_ghostly_translucent_glass": "Heavy Reinforced Ghostly Tinted Glass",
+  "block.witherproofed.heavy_reinforced_glass": "Heavy Reinforced Glass",
+  "block.witherproofed.heavy_reinforced_obsidian": "Heavy Reinforced Obsidian",
+  "block.witherproofed.heavy_reinforced_translucent_glass": "Heavy Reinforced Tinted Glass",
+
   "item.witherproofed.ghostly_essence": "Ghostly Essence",
-  "itemGroup.witherproofedCreativeTab": "Witherproofed"
+  "item.witherproofed.reinforced_alloy": "Reinforced Alloy",
+  "item.witherproofed.soul_scorched_metal": "Soul Scorched Metal",
+  "item.witherproofed.soul_scorched_sword": "Soul Scorched Sword",
+  "item.witherproofed.soul_scorched_pickaxe": "Soul Scorched Pickaxe",
+  "item.witherproofed.soul_scorched_axe": "Soul Scorched Axe",
+  "item.witherproofed.soul_scorched_shovel": "Soul Scorched Shovel",
+  "item.witherproofed.soul_scorched_hoe": "Soul Scorched Hoe",
+  "item.witherproofed.reinforced_compound": "Reinforced Compound",
+  "item.witherproofed.withered_powder": "Withered Powder",
+
+  "itemGroup.witherproofed": "Witherproofed",
+  "tooltip.witherproofed.alloy": "So tough!",
+  "tooltip.witherproofed.connected_texture": "Has connected texture",
+  "tooltip.witherproofed.player_pass": "Not solid for players",
+  "tooltip.witherproofed.wither_immune": "Wither Immune!",
+
+  "tooltip.witherproofed.shift": "Hold Shift",
+  "tooltip.witherproofed.essence.shift": "Dropped from the Wither Skeletons and Ghasts with a 10% chance.",
+  "tooltip.witherproofed.soul_scorched.shift": "Use the Reinforced Alloy while standing in the Soul Fire to obtain.",
+  "tooltip.witherproofed.soul_scorched_2.shift": "This will hurt you and consume 40 experience levels.",
+  "tooltip.witherproofed.withered_powder.shift": "Wither drop.",
+
+  "death.attack.soul_scorched.player": "%1$s scorched his soul to death..."
 }

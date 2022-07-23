@@ -10,7 +10,7 @@ displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"
 credits="Mojang Studios, Forge Team"
-description="Adds Reinforced Blocks to make wither farms with and some tools."
+description="Adds Reinforced Blocks to make wither farms with some tools."
 displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
 
 [[dependencies.witherproofed]]

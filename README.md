@@ -1,28 +1,35 @@
 # Witherproofed
-Witherproofed mod sources and issue tracker.
+Witherproofed mod sources and issues tracker.
 
 **Don't do pull-request, please. Don't answer why...**
 
-[![](https://cf.way2muchnoise.eu/title/463624.svg)](https://www.curseforge.com/minecraft/mc-mods/witherproofed) [![GitHub](https://img.shields.io/github/license/Sajeyson/Witherproofed)](https://github.com/Sajeyson/Witherproofed/blob/1.17.1/LICENSE) [![](https://cf.way2muchnoise.eu/versions/463624.svg)](https://www.curseforge.com/minecraft/mc-mods/witherproofed) [![Downloads](https://cf.way2muchnoise.eu/full_463624_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/witherproofed/files)
+![](https://img.shields.io/badge/Modloader-Forge-teal?style=for-the-badge&logo=minecraftforge)
 
-## Tip: To make proper wither cage you need to kill at least 3 withers.
+## Preview
+---
+![All stuff](https://media.forgecdn.net/attachments/480/215/all_items.png)
 
-## Preview:
+## Items
+---
+- Withered Powder
+- Reinforced Compoud
+- Reinforced Alloy
+- Soul Scorched Metal (used to upgrade Netherite Tools to Soul Scorched Tools)
+- Ghostly Essence (used to convert reinforced glass to ghostly variant)
 
-![All stuff](https://i.imgur.com/zsVNRsd.png)
+## Blocks
+---
+- Heavy Reinforced Obsidian
+- Heavy Reinforced Glass
+- Heavy Reinforced Tinted Glass
+- Heavy Reinforced Ghostly Glass
+- Heavy Reinforced Ghostly Tinted Glass
+### All blocks is fire/wither immune and all reinforced glass has connected texture if [Connected Textures Mod](https://www.curseforge.com/minecraft/mc-mods/ctm) is installed.
 
-## Items:
+## Some Recipes
+---
+![](https://media.forgecdn.net/attachments/480/227/smithing_recipes.png)
 
-- Reinforced Alloy ![Reinforced Alloy](https://github.com/Sajeyson/Witherproofed/blob/1.17.1/src/main/resources/assets/witherproofed/textures/item/reinforced_alloy.png?raw=true) - Tough.
-- Ghostly Essence ![Ghostly Essence](https://github.com/Sajeyson/Witherproofed/blob/1.17.1/src/main/resources/assets/witherproofed/textures/item/ghostly_essence.png?raw=true) - Rare drop from Ghasts and Wither Skeletons. Used to convert Reinforced Glass to Ghostly variant.
-
-## Blocks: 
-
-- Heavy Reinforced Obsidian - Base Block. Wither immune.
-- Heavy Reinforced Glass - Wither immune, has Ghostly variant.
-- Heavy Reinforced Translucent Glass - Same as normal Reinforced Glass, but translucent.
-
-### All Reinforced Glass has Connected texture if [Connected Textures Mod installed](https://www.curseforge.com/minecraft/mc-mods/ctm).
-
-## Also, reinforced stuff doesn't burn in lava:
-![Also, reinforced stuff doesn't burn in lava](https://i.imgur.com/DBZ68hI.png)
+## Info Tooltips
+---
+![](https://media.forgecdn.net/attachments/480/237/tooltip.png)

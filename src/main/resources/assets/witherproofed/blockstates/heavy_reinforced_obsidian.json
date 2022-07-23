@@ -1,9 +1,7 @@
 {
   "variants": {
-    "": [
-      {
-        "model": "witherproofed:block/heavy_reinforced_obsidian"
-      }
-    ]
+    "": {
+      "model": "witherproofed:block/heavy_reinforced_obsidian"
+    }
   }
 }

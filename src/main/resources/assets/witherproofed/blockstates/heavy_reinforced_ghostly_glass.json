@@ -1,9 +1,7 @@
 {
   "variants": {
-    "": [
-      {
-        "model": "witherproofed:block/heavy_reinforced_glass"
-      }
-    ]
+    "": {
+      "model": "witherproofed:block/heavy_reinforced_glass"
+    }
   }
 }

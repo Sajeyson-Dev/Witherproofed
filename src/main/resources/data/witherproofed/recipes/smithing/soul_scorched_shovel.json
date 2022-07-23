@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "witherproofed:soul_scorched_metal"
+  },
+  "result": {
+    "item": "witherproofed:soul_scorched_shovel"
+  }
+}

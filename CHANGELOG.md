@@ -1,4 +1,4 @@
->## **Witherproofed 2.6.1-release MC-1.18.2**
+>## **Witherproofed 2.6.1-release mc-1.18.2**
 ### **Added**
 - Soul Scorched Metal.
 - Soul Scorched Tools (Sword, Pickaxe, Axe, Shovel and Hoe)
@@ -12,6 +12,6 @@
 - Fixed ghostly glass not dropped when mined.
 
 
->## **Witherproofed 2.6-release MC-1.18**
+>## **Witherproofed 2.6-release mc-1.18**
 ### **Changes**
 - Port to 1.18

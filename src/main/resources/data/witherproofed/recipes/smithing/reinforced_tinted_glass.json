@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:tinted_glass"
+    },
+    "addition": {
+        "item": "witherproofed:reinforced_alloy"
+    },
+    "result": {
+        "item": "witherproofed:heavy_reinforced_translucent_glass",
+        "count": 2
+    }
+}

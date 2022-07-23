@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witherproofed:reinforced_compound"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "witherproofed:reinforced_alloy",
+    "count": 4 
+  }
+}

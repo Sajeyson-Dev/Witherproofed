@@ -35,9 +35,7 @@ public class ModTooltips {
 
     public static boolean buildSetBonusTooltip(List<Component> list, String tooltip, int count, Style color) {
         list.add(Component.translatable("tooltip.witherproofed.fullset").withStyle(ModFormatting.ACTUAL_GREEN).withStyle(ChatFormatting.UNDERLINE));
-        for (int index = 0; index < count; index++) { 
-            list.add(Component.translatable("tooltip.witherproofed.fullset_" + tooltip + "_" + index).withStyle(color));
-        }
+        for (int index = 0; index < count; index++) list.add(Component.translatable("tooltip.witherproofed.fullset_" + tooltip + "_" + index).withStyle(color));
         list.add(Component.literal(""));
         return false;
     }

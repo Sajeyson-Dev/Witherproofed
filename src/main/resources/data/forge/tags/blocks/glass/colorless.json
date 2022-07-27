@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "witherproofed:heavy_reinforced_glass",
-    "witherproofed:heavy_reinforced_translucent_glass",
+    "witherproofed:heavy_reinforced_tinted_glass",
     "witherproofed:heavy_reinforced_ghostly_glass",
-    "witherproofed:heavy_reinforced_ghostly_translucent_glass"
+    "witherproofed:heavy_reinforced_ghostly_tinted_glass"
   ]
 }

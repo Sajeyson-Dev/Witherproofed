@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:netherite_helmet"
+    },
+    "addition": {
+        "item": "witherproofed:sculk_metal"
+    },
+    "result": {
+        "item": "witherproofed:sculk_metal_helmet"
+    }
+}

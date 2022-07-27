@@ -18,7 +18,7 @@ public class WitheredPowder extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
-        ModTooltips.buildShiftTooltip(tooltip, "withered_powder", ModFormatting.ACTUAL_GREEN);
+    public void appendHoverText(ItemStack stack, Level level, List<Component> list, TooltipFlag flag) {
+        ModTooltips.buildShiftTooltip(list, "withered_powder", ModFormatting.ACTUAL_GREEN);
     }
 }

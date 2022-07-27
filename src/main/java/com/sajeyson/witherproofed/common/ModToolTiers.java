@@ -1,15 +1,11 @@
 package com.sajeyson.witherproofed.common;
 
 import com.sajeyson.witherproofed.ModRegistry;
-import com.sajeyson.witherproofed.client.ModFormatting;
 
-import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public class ModToolTiers {
-
-    public static final Rarity UNIQUE = Rarity.create("unique", style -> style.applyTo(ModFormatting.SKU_BLUE));
     public static final Tier SOUL_SCORCHED = new Tier() {
 
         @Override

@@ -52,8 +52,8 @@ public class HeavyReinforcedTintedGlass extends GlassBlock {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> tooltip, TooltipFlag flag) {
-        ModTooltips.buildTooltip(tooltip, "wither_immune", ModFormatting.LIGHT_PURPLE);
-        if (ModList.get().isLoaded("ctm")) ModTooltips.buildTooltip(tooltip, "connected_texture", ChatFormatting.DARK_GRAY);
+    public void appendHoverText(ItemStack stack, @Nullable BlockGetter getter, List<Component> list, TooltipFlag flag) {
+        ModTooltips.buildTooltip(list, "wither_immune", ModFormatting.LIGHT_PURPLE);
+        if (ModList.get().isLoaded("ctm")) ModTooltips.buildTooltip(list, "connected_texture", ChatFormatting.DARK_GRAY);
     }
 }

@@ -1,6 +1,7 @@
 package com.sajeyson.witherproofed.common.items.tools;
 
 import com.sajeyson.witherproofed.ModCreativeTab;
+import com.sajeyson.witherproofed.common.ModItemRarity;
 import com.sajeyson.witherproofed.common.ModToolTiers;
 
 import net.minecraft.world.item.HoeItem;
@@ -12,6 +13,6 @@ public class SoulScorchedHoe extends HoeItem {
         super(ModToolTiers.SOUL_SCORCHED, 0, 0.0f, (new Item.Properties()
                 .tab(ModCreativeTab.MOD_CREATIVETAB)
                 .fireResistant()
-                .rarity(ModToolTiers.UNIQUE)));
+                .rarity(ModItemRarity.SOUL_SCORCHED_METAL)));
     }
 }

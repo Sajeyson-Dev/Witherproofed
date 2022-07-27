@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "witherproofed:heavy_reinforced_ghostly_translucent_glass"
+          "name": "witherproofed:heavy_reinforced_tinted_glass"
         }
       ],
       "conditions": [

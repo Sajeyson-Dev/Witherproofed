@@ -1,0 +1,32 @@
+{
+  "parent": "witherproofed:witherproofed/soul_scorched_metal",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:sculk_metal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.sculk_metal.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:sculk_metal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.sculk_metal.title"
+    }
+  }
+}

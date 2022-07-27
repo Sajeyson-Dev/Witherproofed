@@ -1,0 +1,32 @@
+{
+  "parent": "witherproofed:witherproofed/alloy",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:heavy_reinforced_obsidian"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.obsidian.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:heavy_reinforced_obsidian"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.obsidian.title"
+    }
+  }
+}

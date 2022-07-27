@@ -1,0 +1,33 @@
+{
+  "parent": "witherproofed:witherproofed/reinforced_glass",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:heavy_reinforced_ghostly_glass",
+              "witherproofed:heavy_reinforced_ghostly_tinted_glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.ghostly_glass.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:ghostly_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.ghostly_glass.title"
+    }
+  }
+}

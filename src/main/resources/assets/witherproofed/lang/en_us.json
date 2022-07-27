@@ -1,10 +1,12 @@
 {
   "block.witherproofed.heavy_reinforced_ghostly_glass": "Heavy Reinforced Ghostly Glass",
-  "block.witherproofed.heavy_reinforced_ghostly_translucent_glass": "Heavy Reinforced Ghostly Tinted Glass",
+  "block.witherproofed.heavy_reinforced_ghostly_tinted_glass": "Heavy Reinforced Ghostly Tinted Glass",
   "block.witherproofed.heavy_reinforced_glass": "Heavy Reinforced Glass",
   "block.witherproofed.heavy_reinforced_obsidian": "Heavy Reinforced Obsidian",
-  "block.witherproofed.heavy_reinforced_translucent_glass": "Heavy Reinforced Tinted Glass",
+  "block.witherproofed.heavy_reinforced_tinted_glass": "Heavy Reinforced Tinted Glass",
 
+  "item.witherproofed.reinforced_compound": "Reinforced Compound",
+  "item.witherproofed.withered_powder": "Withered Powder",
   "item.witherproofed.ghostly_essence": "Ghostly Essence",
   "item.witherproofed.reinforced_alloy": "Reinforced Alloy",
   "item.witherproofed.soul_scorched_metal": "Soul Scorched Metal",
@@ -13,8 +15,11 @@
   "item.witherproofed.soul_scorched_axe": "Soul Scorched Axe",
   "item.witherproofed.soul_scorched_shovel": "Soul Scorched Shovel",
   "item.witherproofed.soul_scorched_hoe": "Soul Scorched Hoe",
-  "item.witherproofed.reinforced_compound": "Reinforced Compound",
-  "item.witherproofed.withered_powder": "Withered Powder",
+  "item.witherproofed.sculk_metal": "Sculk Metal",
+  "item.witherproofed.sculk_metal_helmet": "Sculk Metal Helmet",
+  "item.witherproofed.sculk_metal_chestplate": "Sculk Metal Chestplate",
+  "item.witherproofed.sculk_metal_leggings": "Sculk Metal Leggings",
+  "item.witherproofed.sculk_metal_boots": "Sculk Metal Boots",
 
   "itemGroup.witherproofed": "Witherproofed",
   "tooltip.witherproofed.alloy": "So tough!",
@@ -23,10 +28,39 @@
   "tooltip.witherproofed.wither_immune": "Wither Immune!",
 
   "tooltip.witherproofed.shift": "Hold Shift",
+  "tooltip.witherproofed.fullset": "On full set",
+
   "tooltip.witherproofed.essence.shift": "Dropped from the Wither Skeletons and Ghasts with a 10% chance.",
-  "tooltip.witherproofed.soul_scorched.shift": "Use the Reinforced Alloy while standing in the Soul Fire to obtain.",
-  "tooltip.witherproofed.soul_scorched_2.shift": "This will hurt you and consume 40 experience levels.",
+  "tooltip.witherproofed.soul_scorched.shift_0": "Use the Reinforced Alloy while standing in the Soul Fire to obtain.",
+  "tooltip.witherproofed.soul_scorched.shift_1": "This will hurt you and consume 40 experience levels.",
   "tooltip.witherproofed.withered_powder.shift": "Wither drop.",
+  "tooltip.witherproofed.sculk_metal.shift": "Take the sonic blast hit while holding Soul Scorched Metal with the Echo Shard in your hands to obtain.",
+
+  "tooltip.witherproofed.fullset_sculk_armor_0": "Player cannot be set on fire.",
+  "tooltip.witherproofed.fullset_sculk_armor_1": "While low on hunger, decreased movement speed.",
+
+  "advancement.witherproofed.root": "Witherproofed",
+  "advancement.witherproofed.root.description": "Reinforced Stuff",
+  "advancement.witherproofed.compound.title": "Reinforced Compound",
+  "advancement.witherproofed.compound.description": "First step...",
+  "advancement.witherproofed.alloy.title": "Almost Here",
+  "advancement.witherproofed.alloy.description": "Craft the base material",
+  "advancement.witherproofed.obsidian.title": "The Cage",
+  "advancement.witherproofed.obsidian.description": "Craft a few reinforced blocks",
+  "advancement.witherproofed.glass.title": "Reinforced Glass",
+  "advancement.witherproofed.glass.description": "He can see you from there...",
+  "advancement.witherproofed.ghostly_glass.title": "Reinforced Ghostly Glass",
+  "advancement.witherproofed.ghostly_glass.description": "Shapes.empty();",
+  "advancement.witherproofed.soul_scorched_metal.title": "Soul Scorched",
+  "advancement.witherproofed.soul_scorched_metal.description": "Burn your soul",
+  "advancement.witherproofed.soul_scorched_sword.title": "Soul Scorched Sword",
+  "advancement.witherproofed.soul_scorched_sword.description": "Craft the Soul Scorched Sword",
+  "advancement.witherproofed.sculk_metal.title": "Sculk Metal",
+  "advancement.witherproofed.sculk_metal.description": "Insanely tough!",
+  "advancement.witherproofed.sculk_armor.title": "Untouchable",
+  "advancement.witherproofed.sculk_armor.description": "Almost...",
+
+
 
   "death.attack.soul_scorched.player": "%1$s scorched his soul to death..."
 }

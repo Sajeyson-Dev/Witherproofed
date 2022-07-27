@@ -5,12 +5,12 @@ issueTrackerURL="https://github.com/Sajeyson-Dev/Witherproofed/issues"
 
 [[mods]]
 modId="witherproofed"
-version="2.6.1"
+version="2.7"
 displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"
 credits="Mojang Studios, Forge Team"
-description="Adds Reinforced Blocks to make wither farms with some tools."
+description="Adds Reinforced Blocks to make wither farms with some armor and tools."
 displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
 
 [[dependencies.witherproofed]]
@@ -23,6 +23,6 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
 [[dependencies.witherproofed]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19]"
     ordering="NONE"
     side="BOTH"

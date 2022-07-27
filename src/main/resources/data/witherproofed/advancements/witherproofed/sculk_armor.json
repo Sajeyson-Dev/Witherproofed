@@ -1,0 +1,47 @@
+{
+  "parent": "witherproofed:witherproofed/sculk_metal",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:sculk_metal_helmet"
+            ]
+          },
+          {
+            "items": [
+              "witherproofed:sculk_metal_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "witherproofed:sculk_metal_leggings"
+            ]
+          },
+          {
+            "items": [
+              "witherproofed:sculk_metal_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.sculk_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:sculk_metal_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.sculk_armor.title"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "witherproofed:witherproofed/reinforced_obsidian",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:heavy_reinforced_glass",
+              "witherproofed:heavy_reinforced_tinted_glass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.glass.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:heavy_reinforced_glass"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.glass.title"
+    }
+  }
+}

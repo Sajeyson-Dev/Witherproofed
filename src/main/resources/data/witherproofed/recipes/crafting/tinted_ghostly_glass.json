@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "witherproofed:heavy_reinforced_translucent_glass"
+            "item": "witherproofed:heavy_reinforced_tinted_glass"
         },
         {
             "item": "witherproofed:ghostly_essence"
         }
     ],
     "result": {
-        "item": "witherproofed:heavy_reinforced_ghostly_translucent_glass"
+        "item": "witherproofed:heavy_reinforced_ghostly_tinted_glass"
     }
 }

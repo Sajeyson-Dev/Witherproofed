@@ -20,7 +20,7 @@ public class GhostlyEssence extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        ModTooltips.buildShiftTooltip(tooltip,"essence", ModFormatting.ACTUAL_GREEN);
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> list, TooltipFlag flag) {
+        ModTooltips.buildShiftTooltip(list, "essence", ModFormatting.ACTUAL_GREEN);
     }
 }

@@ -29,8 +29,8 @@ public class ReinforcedAlloy extends Item {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        ModTooltips.buildTooltip(tooltip, "alloy", ModFormatting.LIGHT_PURPLE);
+    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> list, TooltipFlag flag) {
+        ModTooltips.buildTooltip(list, "alloy", ModFormatting.LIGHT_PURPLE);
     }
 
     @Override
@@ -46,7 +46,7 @@ public class ReinforcedAlloy extends Item {
                 player.experienceLevel = xp - 40;
             }
             inv.add(new ItemStack(ModRegistry.SOUL_SCORCHED_METAL.get(), 1));
-            level.playSound(player, player.getOnPos(), SoundEvents.AXE_SCRAPE, SoundSource.PLAYERS, 10, 2.0f);
+            level.playSound(player, player.getOnPos(), SoundEvents.AXE_SCRAPE, SoundSource.PLAYERS, 100, 2.0f);
             player.getCooldowns().addCooldown(this, 32);
             
         } else { return InteractionResultHolder.fail(stack); }

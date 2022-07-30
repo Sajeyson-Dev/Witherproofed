@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Sajeyson-Dev/Witherproofed/issues"
 
 [[mods]]
 modId="witherproofed"
-version="2.7"
+version="2.7.1"
 displayName="Witherproofed"
 logoFile="icon.png"
 authors="Sajeyson"
@@ -23,6 +23,6 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/witherproofed"
 [[dependencies.witherproofed]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19]"
+    versionRange="[1.19.1]"
     ordering="NONE"
     side="BOTH"

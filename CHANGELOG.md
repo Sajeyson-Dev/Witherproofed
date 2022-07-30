@@ -3,7 +3,7 @@
 - Scorching damage now scales with difficulty.
 
 ### **Fixed**
-- Crash when player dies with Soul Scorched Metal
+- Crash when player dies with Soul Scorched Metal.
 - Soul scorching can consume the result item.
 
 >## **Witherproofed 2.7-release for mc 1.19**

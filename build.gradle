@@ -139,9 +139,9 @@ dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forge_version}"
     //compileOnly fg.deobf("mezz.jei:jei-${jei_version}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${jei_version}")
-    implementation fg.deobf('curse.maven:catalogue-459701:3803098')
-    implementation fg.deobf('curse.maven:ctm-267602:3737369')
-
+    implementation fg.deobf("curse.maven:catalogue-459701:${catalogue_version_id}")
+    implementation fg.deobf("curse.maven:ctm-267602:${ctm_version_id}")
+    
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
 

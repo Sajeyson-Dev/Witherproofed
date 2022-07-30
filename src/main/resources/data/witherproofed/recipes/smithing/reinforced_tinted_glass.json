@@ -4,10 +4,9 @@
         "item": "minecraft:tinted_glass"
     },
     "addition": {
-        "item": "witherproofed:reinforced_alloy"
+        "item": "witherproofed:heavy_reinforced_obsidian"
     },
     "result": {
-        "item": "witherproofed:heavy_reinforced_translucent_glass",
-        "count": 2
+        "item": "witherproofed:heavy_reinforced_translucent_glass"
     }
 }

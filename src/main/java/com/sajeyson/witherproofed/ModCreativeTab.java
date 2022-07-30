@@ -8,7 +8,7 @@ public class ModCreativeTab {
     public static final CreativeModeTab MOD_CREATIVETAB = new CreativeModeTab(Witherproofed.MOD_ID) {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModRegistry.REINFORCED_ALLOY.get());
+            return new ItemStack(ModRegistry.GHOSTLY_ESSENCE.get());
         }
     };
 }

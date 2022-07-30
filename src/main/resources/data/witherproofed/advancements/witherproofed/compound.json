@@ -1,0 +1,32 @@
+{
+  "parent": "witherproofed:witherproofed/root",
+  "criteria": {
+    "blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witherproofed:reinforced_compound"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.witherproofed.compound.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "witherproofed:reinforced_compound"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.witherproofed.compound.title"
+    }
+  }
+}

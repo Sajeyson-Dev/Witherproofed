@@ -21,6 +21,6 @@ public class SoulScorchedMetal extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
-        ModTooltips.buildShiftTooltip(tooltip, "soul_scorched", "soul_scorched_2", ModFormatting.ACTUAL_GREEN);
+        ModTooltips.buildShiftTooltip(tooltip, "soul_scorched", 2, ModFormatting.ACTUAL_GREEN);
     }
 }

@@ -24,9 +24,26 @@
 
   "tooltip.witherproofed.shift": "Hold Shift",
   "tooltip.witherproofed.essence.shift": "Dropped from the Wither Skeletons and Ghasts with a 10% chance.",
-  "tooltip.witherproofed.soul_scorched.shift": "Use the Reinforced Alloy while standing in the Soul Fire to obtain.",
-  "tooltip.witherproofed.soul_scorched_2.shift": "This will hurt you and consume 40 experience levels.",
+  "tooltip.witherproofed.soul_scorched.shift_0": "Use the Reinforced Alloy while standing in the Soul Fire to obtain.",
+  "tooltip.witherproofed.soul_scorched.shift_1": "This will hurt you and consume 40 experience levels.",
   "tooltip.witherproofed.withered_powder.shift": "Wither drop.",
+
+  "advancement.witherproofed.root": "Witherproofed",
+  "advancement.witherproofed.root.description": "Reinforced Stuff",
+  "advancement.witherproofed.compound.title": "Reinforced Compound",
+  "advancement.witherproofed.compound.description": "First step...",
+  "advancement.witherproofed.alloy.title": "Almost Here",
+  "advancement.witherproofed.alloy.description": "Craft the base material",
+  "advancement.witherproofed.obsidian.title": "The Cage",
+  "advancement.witherproofed.obsidian.description": "Craft a few reinforced blocks",
+  "advancement.witherproofed.glass.title": "Reinforced Glass",
+  "advancement.witherproofed.glass.description": "He can see you from there...",
+  "advancement.witherproofed.ghostly_glass.title": "Reinforced Ghostly Glass",
+  "advancement.witherproofed.ghostly_glass.description": "Shapes.empty();",
+  "advancement.witherproofed.soul_scorched_metal.title": "Soul Scorched",
+  "advancement.witherproofed.soul_scorched_metal.description": "Burn your soul",
+  "advancement.witherproofed.soul_scorched_sword.title": "Soul Scorched Sword",
+  "advancement.witherproofed.soul_scorched_sword.description": "Craft the Soul Scorched Sword",
 
   "death.attack.soul_scorched.player": "%1$s scorched his soul to death..."
 }

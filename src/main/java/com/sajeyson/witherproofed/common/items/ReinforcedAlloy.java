@@ -36,19 +36,19 @@ public class ReinforcedAlloy extends Item {
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         var stack = player.getItemInHand(hand);
+        var result = new ItemStack(ModRegistry.SOUL_SCORCHED_METAL.get());
         var inv = player.getInventory();
         var xp = player.experienceLevel;
         var block = player.getLevel().getBlockState(player.getOnPos().above()).getBlock();
-        if (block == Blocks.SOUL_FIRE && xp > 39 && player.displayFireAnimation() && inv.getFreeSlot() != -1 | inv.getSlotWithRemainingSpace(new ItemStack(ModRegistry.SOUL_SCORCHED_METAL.get())) != -1) {
-            if (!player.isCreative()) { 
-                stack.shrink(1); 
-                player.hurt(new DamageSource("soul_scorched.player").bypassArmor().bypassInvul(), 5.0f);
-                player.experienceLevel = xp - 40;
-            }
+        if (block == Blocks.SOUL_FIRE && xp > 39 && player.displayFireAnimation() && inv.getFreeSlot() != -1 | inv.getSlotWithRemainingSpace(result) != -1) {
             inv.add(new ItemStack(ModRegistry.SOUL_SCORCHED_METAL.get(), 1));
-            level.playSound(player, player.getOnPos(), SoundEvents.AXE_SCRAPE, SoundSource.PLAYERS, 10, 2.0f);
+            level.playSound(player, player.getOnPos(), SoundEvents.AXE_SCRAPE, SoundSource.PLAYERS, 100, 2.0f);
             player.getCooldowns().addCooldown(this, 32);
-            
+            if (!player.isCreative()) {
+                player.experienceLevel = xp - 40;
+                stack.shrink(1);
+                player.hurt(new DamageSource("soul_scorched.player").bypassArmor().bypassInvul().setScalesWithDifficulty(), 5.0f);
+            }
         } else { return InteractionResultHolder.fail(stack); }
         return InteractionResultHolder.success(stack);
     }

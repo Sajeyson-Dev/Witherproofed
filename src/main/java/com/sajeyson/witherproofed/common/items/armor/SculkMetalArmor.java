@@ -48,16 +48,17 @@ public class SculkMetalArmor extends ArmorItem {
     int tick = 1;
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int i, boolean b) {
-        var player = level.players().iterator().next();
-        var slot = player.getInventory().armor;
-        
-        if (slot.get(3).getItem() == ModRegistry.SCULK_METAL_HELMET.get() &&
-            slot.get(2).getItem() == ModRegistry.SCULK_METAL_CHEST.get() &&
-            slot.get(1).getItem() == ModRegistry.SCULK_METAL_LEGS.get() &&
-            slot.get(0).getItem() == ModRegistry.SCULK_METAL_BOOTS.get()) {
-            player.clearFire();
-            if (player.getFoodData().getFoodLevel() <= 6) {
-                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 1, false, false), entity);
+        if (entity.isAlive()) {
+            var player = level.players().iterator().next();
+            var slot = player.getInventory().armor;
+            if (slot.get(3).getItem() == ModRegistry.SCULK_METAL_HELMET.get() &&
+                slot.get(2).getItem() == ModRegistry.SCULK_METAL_CHEST.get() &&
+                slot.get(1).getItem() == ModRegistry.SCULK_METAL_LEGS.get() &&
+                slot.get(0).getItem() == ModRegistry.SCULK_METAL_BOOTS.get()) {
+                player.clearFire();
+                if (player.getFoodData().getFoodLevel() <= 6) {
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 1, false, false), entity);
+                }
             }
         }
     }

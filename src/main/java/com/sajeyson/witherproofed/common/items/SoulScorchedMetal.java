@@ -34,21 +34,23 @@ public class SoulScorchedMetal extends Item {
 
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int i, boolean b) {
-        var player = level.players().iterator().next();
-        var inv = player.getInventory();
-        var mainHand = player.getMainHandItem();
-        var offHand = player.getOffhandItem();
-        var ingot = stack.getItem();
-        var shard = Items.ECHO_SHARD;
-        var result = new ItemStack(ModRegistry.SCULK_METAL.get());
-        if (entity == player) { 
-            if (player.hurtTime > 8 && player.getLastDamageSource().getMsgId() == "sonic_boom") {
-                if (mainHand.getItem() == ingot && offHand.getItem() == shard || mainHand.getItem() == shard && offHand.getItem() == ingot) {
-                    if (inv.getFreeSlot() != -1 | inv.getSlotWithRemainingSpace(result) != -1) {
-                        mainHand.shrink(1);
-                        offHand.shrink(1);
-                        inv.add(result);
-                        level.playSound(null, player.getOnPos(), SoundEvents.END_PORTAL_SPAWN, SoundSource.PLAYERS, 10, 2.0f);
+        if (entity.isAlive()) {
+            var player = level.players().iterator().next();
+            var inv = player.getInventory();
+            var mainHand = player.getMainHandItem();
+            var offHand = player.getOffhandItem();
+            var ingot = stack.getItem();
+            var shard = Items.ECHO_SHARD;
+            var result = new ItemStack(ModRegistry.SCULK_METAL.get());
+            if (entity == player) {
+                if (player.hurtTime > 8 && player.getLastDamageSource().getMsgId() == "sonic_boom") {
+                    if (mainHand.getItem() == ingot && offHand.getItem() == shard || mainHand.getItem() == shard && offHand.getItem() == ingot) {
+                        if (inv.getFreeSlot() != -1 | inv.getSlotWithRemainingSpace(result) != -1) {
+                            mainHand.shrink(1);
+                            offHand.shrink(1);
+                            inv.add(result);
+                            level.playSound(null, player.getOnPos(), SoundEvents.END_PORTAL_SPAWN, SoundSource.PLAYERS, 10, 2.0f);
+                        }
                     }
                 }
             }

@@ -17,6 +17,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -45,11 +46,9 @@ public class SculkMetalArmor extends ArmorItem {
         return null;
     }
 
-    int tick = 1;
     @Override
-    public void inventoryTick(ItemStack stack, Level level, Entity entity, int i, boolean b) {
-        if (entity.isAlive()) {
-            var player = level.players().iterator().next();
+    public void onArmorTick(ItemStack stack, Level level, Player player) {
+        if (player.isAlive()) {
             var slot = player.getInventory().armor;
             if (slot.get(3).getItem() == ModRegistry.SCULK_METAL_HELMET.get() &&
                 slot.get(2).getItem() == ModRegistry.SCULK_METAL_CHEST.get() &&
@@ -57,7 +56,7 @@ public class SculkMetalArmor extends ArmorItem {
                 slot.get(0).getItem() == ModRegistry.SCULK_METAL_BOOTS.get()) {
                 player.clearFire();
                 if (player.getFoodData().getFoodLevel() <= 6) {
-                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 1, false, false), entity);
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 10, 1, false, false), player);
                 }
             }
         }

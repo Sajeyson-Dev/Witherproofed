@@ -1,3 +1,7 @@
+>## **Witherproofed 2.7.2-release for mc 1.19.1**
+### **Changes**
+- Some code improvements.
+
 >## **Witherproofed 2.7.1-release for mc 1.19.1**
 ### **Changes**
 - Scorching damage now scales with difficulty.
